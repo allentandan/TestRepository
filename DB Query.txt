@@ -1,0 +1,9 @@
+1a --
+1b SELECT * FROM Employee_Salary where Salary = '$9999' AND Month like '03%';
+1c UPDATE Employee SET Address = 'New York' WHERE Emp_name='Robert'
+
+
+
+2a) SELECT Price.price FROM Product JOIN Price ON Product.price_id = Price.price_id WHERE Product.Product_id = '123456';
+2b) UPDATE Price SET price = '10.00' FROM Product JOIN Price ON Product.price_id = Price.price_id WHERE Product.Product_id = '123456';
+2) SELECT Product.product_name FROM Product JOIN Price ON Product.price_id = Price.price_id WHERE Price.price > 1000;
